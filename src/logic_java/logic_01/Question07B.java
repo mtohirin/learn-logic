@@ -2,7 +2,7 @@ package logic_java.logic_01;
 
 import java.util.Scanner;
 
-public class Question07A {
+public class Question07B {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukan nilai n : ");
