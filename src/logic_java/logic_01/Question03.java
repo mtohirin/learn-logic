@@ -10,7 +10,7 @@ public class Question03 {
 
         int [] numbers = new int[n];
         for (int i = 0; i < n; i++) {
-            numbers[i] = i*3+3;
+            numbers[i] = i * 3 + 3;
         }
         for (int value : numbers) {
             System.out.print(value + " ");

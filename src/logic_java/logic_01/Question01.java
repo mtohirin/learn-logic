@@ -2,17 +2,17 @@ package logic_java.logic_01;
 
 import java.util.Scanner;
 
-public class Question02 {
+public class Question01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukan nilai n :");
+        System.out.print("Masukan nilai n : ");
         int n = input.nextInt();
 
-        int [] genap = new int[n];
+        int [] arrayGanjil = new int[n];
         for (int i = 0; i < n; i++) {
-            genap[i] = i * 2 + 2;
+            arrayGanjil[i] = i * 2 + 1;
         }
-        for (int value : genap) {
+        for (int value : arrayGanjil) {
             System.out.print(value + " ");
         }
     }
