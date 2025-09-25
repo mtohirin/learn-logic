@@ -21,7 +21,7 @@ public class Question10 {
             }
         }
         for (String value : mixed) {
-            System.out.println(value + " ");
+            System.out.print(value + " ");
         }
     }
 

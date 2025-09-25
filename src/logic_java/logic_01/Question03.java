@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Question03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukan nilai n :");
+        System.out.print("Masukan nilai n :");
         int n = input.nextInt();
 
         int [] numbers = new int[n];

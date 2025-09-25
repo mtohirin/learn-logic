@@ -2,7 +2,7 @@ package logic_java.logic_01;
 
 import java.util.Scanner;
 
-public class Question08B {
+public class Question08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukan nilai n : ");
@@ -10,7 +10,7 @@ public class Question08B {
 
         int [] ganjil = new int [n*n];
         for (int i = 0; i < n; i++) {
-            ganjil[i] = i * 2 + 1;
+            ganjil[i] = i * 2 + 2;
         }
         int [] arrayReverse = new int [n];
         int index = 0;
